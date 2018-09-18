@@ -1,0 +1,23 @@
+Package: brscrap
+Type: Package
+Title: Baseball-reference.com Table Scraping Functions
+Version: 0.1.0
+Authors@R: c(person("Henry", "Alvarez", email = "henry.alvarez@mavs.uta.edu", role = c("aut","cre")), person("Jonghyun", "Yun", email = "j.yun@uta.edu", role = "aut"))
+Description: This package contains functions that facilitate collecting baseball statistics data from baseball-reference.com. These functions not only retreive and scrap data from a wide range of tables, but also from a wide range of years.
+    Additionally, the data scraped is formatted as data frames with numeric entries that allow for easy manipulation and statistical analyzation.
+    Overall, the package aims to reduce the workload required to collect this data manually to simple, easy to use functions.
+Depends: R (>= 3.0.1), rvest (>= 0.3.1), tidyverse (>= 1.0.0),
+        data.table(>= 1.10.4-3), fts (>= 0.9.9)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: rvest (>= 0.3.1), tidyverse (>= 1.0.0), data.table (>=
+        1.10.4-3), fts (>= 0.9.9)
+RoxygenNote: 6.0.1
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2018-04-26 20:59:11 UTC; Halva
+Author: Henry Alvarez [aut, cre],
+  Jonghyun Yun [aut]
+Maintainer: Henry Alvarez <henry.alvarez@mavs.uta.edu>
